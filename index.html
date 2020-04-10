@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery Food - доставка еды</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <header class="header">
+      <a href="#" class="logo header__logo">
+        <img src="img/logo.svg" alt="logo" class="logo-image header__logo-img" width="100" height="36">
+      </a>
+      <input type="text" class="input header__input" placeholder="Адрес доставки">
+      <div class="header__buttons">
+        <button class="button header__button button-primary">
+          <img class="header__button-icon" src="img/user.svg" alt="user">
+          <span class="header__button-text">Войти</span>
+        </button>
+        <button class="button header__button" id="shopping-cart">
+          <img class="header__button-icon" src="img/shopping-cart.png" alt="shopping-cart">
+          <span class="header__button-text">Корзина</span>
+        </button>
+      </div>
+  </header>
+
+  <main class="main">
+    <section class="promo">
+      <h1 class="promo__header">Онлайн-сервис<br>доставки еды на дом</h1>
+      <p class="promo__text">Блюда из любимого ресторана привезет<br>курьер в перчатках, маске и с антисептиком</p>
+    </section>
+
+    <section class="restorants">
+      <div class="restorants__header">
+        <h2 class="restorants__title">Рестораны</h2>
+        <input class="input restorants__input" type="text" placeholder="Поиск блюд и ресторанов">
+      </div>
+
+      <div class="restorants__cards">
+
+        <a href="#" class="restorants__card wow fadeInUp" data-wow-delay="0.2s">
+          <img src="img/pizza-plus.jpg" alt="pizza-plus" class="restorants__card-image">
+          <div class="restorants__text">
+            <div class="restorants__card-title">
+              <h3 class="restorants__card-name">Пицца плюс</h3>
+              <span class="restorants__card-time">50 мин</span>
+            </div>
+            <div class="restorants__info">
+              <div class="restorants__rating">
+                <img src="img/rating-star.svg" alt="rating-star" class="restorants__rating-star">
+                4.5</div>
+              <div class="restorants__price">От 900 ₽</div>
+              <div class="restorants__category">Пицца</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="tanuki.html" class="restorants__card wow fadeInUp" data-wow-delay="0.4s">
+          <img src="img/tanuki.jpg" alt="tanuki" class="restorants__card-image">
+          <div class="restorants__text">
+            <div class="restorants__card-title">
+              <h3 class="restorants__card-name">Тануки</h3>
+              <span class="restorants__card-time">50 мин</span>
+            </div>
+            <div class="restorants__info">
+              <div class="restorants__rating">
+                <img src="img/rating-star.svg" alt="rating-star" class="restorants__rating-star">
+                4.5</div>
+              <div class="restorants__price">От 1200 ₽</div>
+              <div class="restorants__category">Суши, роллы</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="restorants__card wow fadeInUp" data-wow-delay="0.6s">
+          <img src="img/food_band.jpg" alt="food_band" class="restorants__card-image">
+          <div class="restorants__text">
+            <div class="restorants__card-title">
+              <h3 class="restorants__card-name">FoodBand</h3>
+              <span class="restorants__card-time">50 мин</span>
+            </div>
+            <div class="restorants__info">
+              <div class="restorants__rating">
+                <img src="img/rating-star.svg" alt="rating-star" class="restorants__rating-star">
+                4.5</div>
+              <div class="restorants__price">От 450 ₽</div>
+              <div class="restorants__category">Пицца</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="restorants__card wow fadeInUp" data-wow-delay="0.2s">
+          <img src="img/zhadina-pizza.jpg" alt="zhadina-pizza" class="restorants__card-image">
+          <div class="restorants__text">
+            <div class="restorants__card-title">
+              <h3 class="restorants__card-name">Жадина-пицца</h3>
+              <span class="restorants__card-time">50 мин</span>
+            </div>
+            <div class="restorants__info">
+              <div class="restorants__rating">
+                <img src="img/rating-star.svg" alt="rating-star" class="restorants__rating-star">
+                4.5</div>
+              <div class="restorants__price">От 500 ₽</div>
+              <div class="restorants__category">Пицца</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="restorants__card wow fadeInUp" data-wow-delay="0.4s">
+          <img src="img/tochka_edy.jpg" alt="tochka_edy" class="restorants__card-image">
+          <div class="restorants__text">
+            <div class="restorants__card-title">
+              <h3 class="restorants__card-name">Точка еды</h3>
+              <span class="restorants__card-time">50 мин</span>
+            </div>
+            <div class="restorants__info">
+              <div class="restorants__rating">
+                <img src="img/rating-star.svg" alt="rating-star" class="restorants__rating-star">
+                4.5</div>
+              <div class="restorants__price">От 1000 ₽</div>
+              <div class="restorants__category">Русская кухня</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="restorants__card wow fadeInUp" data-wow-delay="0.6s">
+          <img src="img/pizza_burger.jpg" alt="pizza_burger" class="restorants__card-image">
+          <div class="restorants__text">
+            <div class="restorants__card-title">
+              <h3 class="restorants__card-name">PizzaBurger</h3>
+              <span class="restorants__card-time">50 мин</span>
+            </div>
+            <div class="restorants__info">
+              <div class="restorants__rating">
+                <img src="img/rating-star.svg" alt="rating-star" class="restorants__rating-star">
+                4.5</div>
+              <div class="restorants__price">От 700 ₽</div>
+              <div class="restorants__category">Пицца</div>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#" class="logo footer__logo">
+      <img src="img/logo.svg" alt="logo" class="logo-image footer__logo-img" width="100" height="36">
+    </a>
+    <nav class="footer__nav">
+      <a href="#" class="footer__link">Контакты</a>
+      <a href="#" class="footer__link">Пресс-центр</a>
+      <a href="#" class="footer__link">Курьерам</a>
+      <a href="#" class="footer__link">Ресторанам</a>
+    </nav>
+    <div class="footer__social-links">
+      <a href="#" class="footer__social-link">
+        <img src="img/instagram.svg" alt="instagram" class="footer__instagram">
+      </a>
+      <a href="#" class="footer__social-link">
+        <img src="img/fb.svg" alt="facebook" class="footer__fb">
+      </a>
+      <a href="#" class="footer__social-link">
+        <img src="img/vk.svg" alt="vkontakte" class="footer_vk">
+      </a>
+    </div>
+  </footer>
+  </div>
+
+  <div class="modal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title">Корзина</h3>
+        <button class="modal-close">&times;</button>
+      </div>
+      <div class="modal-body">
+
+        <div class="food-row">
+          <div class="food-name">Ролл угорь стандарт</div>
+          <strong class="food-price">250 ₽</strong>
+          <div class="food-counter">
+            <button class="button-counter">-</button>
+            <span class="food-quantity">1</span>
+            <button class="button-counter">+</button>
+          </div>
+        </div>
+
+        <div class="food-row">
+          <div class="food-name">Калифорния лосось стандарт</div>
+          <strong class="food-price">395 ₽</strong>
+          <div class="food-counter">
+            <button class="button-counter">-</button>
+            <span class="food-quantity">1</span>
+            <button class="button-counter">+</button>
+          </div>
+        </div>
+
+        <div class="food-row">
+          <div class="food-name">Окинава стандарт</div>
+          <strong class="food-price">250 ₽</strong>
+          <div class="food-counter">
+            <button class="button-counter">-</button>
+            <span class="food-quantity">1</span>
+            <button class="button-counter">+</button>
+          </div>
+        </div>
+
+        <div class="food-row">
+          <div class="food-name">Цезарь маки xl</div>
+          <strong class="food-price">250 ₽</strong>
+          <div class="food-counter">
+            <button class="button-counter">-</button>
+            <span class="food-quantity">1</span>
+            <button class="button-counter">+</button>
+          </div>
+        </div>
+
+        <div class="food-row">
+          <div class="food-name">Ясай маки стандарт 185 г</div>
+          <strong class="food-price">250 ₽</strong>
+          <div class="food-counter">
+            <button class="button-counter">-</button>
+            <span class="food-quantity">1</span>
+            <button class="button-counter">+</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="modal-footer">
+        <span class="modal-summ">1395 ₽</span>
+        <div class="footer-buttons">
+          <button class="button button-primary">Оформить заказ</button>
+          <button class="button">Отмена</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/wow.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
